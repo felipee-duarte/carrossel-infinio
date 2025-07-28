@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+img {
+    width: 50px;
+    
+}
+.container-slide {
+    width: 75vw;
+    white-space: nowrap;
+}
