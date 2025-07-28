@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Celulares pequenos*/
+@media (max-width: 480px) {
+.paginas-slide img {
+  width: 50px;
+}
+}
+
+/* Celulares médios e grandes*/
+@media (max-width: 768px) {
+.paginas-slide img {
+  width: 100px;
+}
+}
+
+/* Tablets*/
+@media (max-width: 1024px) {
+.paginas-slide img {
+  width: 100px;
+}
+}
+
+/* Laptops e desktops padrão */
+@media (min-width: 1025px) and (max-width: 1440px) {
+.paginas-slide img {
+  width: 150px;
+}
+}
+
+/* Telas muito grandes*/
+@media (min-width: 1441px) {
+.paginas-slide img {
+  width: 150px;
+}
+}
